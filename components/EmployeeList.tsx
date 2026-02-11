@@ -332,7 +332,7 @@ const EmployeeList: React.FC<EmployeeListProps> = ({ employees, onUpdate, onDele
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse min-w-[1000px]">
             <thead>
-              <tr className="border-b border-border-dark bg-white/[0.02]">
+              <tr className="bg-white rounded-[20px] overflow-hidden shadow-card border border-gray-100">
                 <SortableHeader label="Matrícula" sortKey="id" />
                 <SortableHeader label="Nome / CPF" sortKey="name" />
                 <SortableHeader label="Cargo" sortKey="role" />
