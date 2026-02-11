@@ -1,0 +1,1 @@
+@layer components { .tab-base { @apply px-6 py-3 rounded-xl text-sm font-black whitespace-nowrap transition-all duration-500 border; } .tab-inactive { @apply tab-base bg-[#0F0F0F] border-white/10 text-slate-500 hover:text-white hover:bg-white/5; } .tab-active { @apply tab-base bg-primary border-primary text-white shadow-[0_10px_30px_rgba(236,19,19,0.35)] scale-105 z-10; } }
