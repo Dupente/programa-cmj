@@ -308,7 +308,7 @@ const Inventory: React.FC<InventoryProps> = ({ printers, onAdd, onUpdate, onDele
         <div className="flex justify-between items-start border-b-2 border-[#111C44] pb-6 mb-8">
           <div>
             <h1 className="text-3xl font-black text-[#111C44] uppercase tracking-tighter">Relatório de Contadores</h1>
-            <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mt-1">Gestão de Ativos TI - {MONTHS[selectedMonthIndex]} de {selectedYear}</p>
+            <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mt-1">Gestão de Impressoras - {MONTHS[selectedMonthIndex]} de {selectedYear}</p>
           </div>
           <div className="text-right">
             <p className="text-xs font-bold text-gray-400">EMISSÃO: {new Date().toLocaleDateString('pt-BR')}</p>
